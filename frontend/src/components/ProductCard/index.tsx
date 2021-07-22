@@ -1,17 +1,19 @@
 import './styles.css';
 
 import ProductImg from 'assets/images/car-card1.svg';
-import ProductPrice from 'components/ProductPrice';
 
 function ProductCard() {
     return (
         <div className="base-card product-card">
             <div className="card-top-container">
-                <img src= {ProductImg} alt="Nome do produto" />
+                <img src={ProductImg} alt="Nome do produto" />
             </div>
             <div className="card-bottom-container">
-                <h6>Nome do produto</h6>
-                <ProductPrice />
+                <h6>Audi Supra TT</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
+                <button className="btn-comprar btn btn-primary ">
+                    <h6>COMPRAR</h6>
+                </button>
             </div>
         </div>
     );

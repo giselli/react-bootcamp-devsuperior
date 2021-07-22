@@ -1,6 +1,7 @@
 .main-nav{
     padding-left: 40px;
     min-height: 70px;
+    background-color: #F78B00;
 }
 
 .nav-logo-text, .nav-logo-text:hover{
@@ -12,7 +13,7 @@
     display: flex;
     font-size: 18px;
     width: 380px;
-    justify-content: space-between;
+    /*/justify-content: space-between;*/
     }
 
 .main-menu a{
@@ -37,4 +38,6 @@
 
 .active{
     align-content: flex-end;
+    padding: 48px;
 }
+

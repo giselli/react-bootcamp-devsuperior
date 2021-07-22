@@ -5,7 +5,7 @@
 .card-top-container {
     text-align: center;
     padding: 16px 0; /*16 no topo e 0 nas laterais*/
-    border-bottom: 1px solid #e1e1e1;
+    /*border-bottom: 1px solid #e1e1e1;*/
 }
 
 .card-bottom-container {
@@ -14,7 +14,17 @@
 
 .card-bottom-container h6 {
     font-size: 18px;
-    color: #e5e5e5;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card-bottom-container p {
+    font-size: 14px;
+    font-weight: 400px;
+    font-style: italic;
+    color: #000000;
+    text-align: center;
 }
 
 .card-top-container img {
@@ -28,4 +38,18 @@
 
 .flex-interno{
     flex-direction: column;
+}
+
+.btn-comprar h6{
+  color:#ffffff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.btn-comprar{
+  align-items: center;
+  padding: auto;
+  /*margin-top: 30px;*/
+  width:100%; 
+  padding-top: 12px;
 }
