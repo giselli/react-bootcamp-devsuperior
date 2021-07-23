@@ -24,16 +24,16 @@ function Navbar() {
                 </button>
 
                 <div className="alinhar">
-                <div className="collapse navbar-collapse" id="dscatalog-navbar">
-                    <ul className="navbar-nav offset-md-2 main-menu">
-                        <li>
-                            <NavLink to="/" activeClassName="active" exact >Home</NavLink>
-                        </li>
-                        <li>
-                            <NavLink to="/products" activeClassName="active">Catálogo</NavLink>
-                        </li>
-                    </ul>
-                </div>
+                    <div className="collapse navbar-collapse" id="dscatalog-navbar">
+                        <ul className="navbar-nav offset-md-2 main-menu">
+                            <li>
+                                <NavLink to="/" activeClassName="active" exact >Home</NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/products" activeClassName="active">Catálogo</NavLink>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>

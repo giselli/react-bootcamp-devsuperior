@@ -16,15 +16,15 @@ function Home() {
                         <h1>O carro perfeito para você</h1>
                         <p>Conheça nossos carros e dê um passo na realização do seu sonho</p>
                     </div>
-                  
+
                 </div>
             </div>
             <div className="entorno-botao">
-            <div>
-                        <Link to="/products">
-                            <ButtonIcon />
-                        </Link>
-                    </div>
+                <div>
+                    <Link to="/products" style={{ textDecoration: 'none' }}>
+                        <ButtonIcon />
+                    </Link>
+                </div>
             </div>
         </div>
 

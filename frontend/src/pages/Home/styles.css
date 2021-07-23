@@ -2,7 +2,6 @@
   padding: 10px;
   font-size: 20px;
   text-align: center;
-  
 }
 
 .home-content-container h1 {
@@ -20,13 +19,12 @@
 
 .home-image-container {
   padding: 50px 15px;
- 
 }
 
 .home-content-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
   padding: 10x 10px 60px 10px;
 }
 
@@ -39,14 +37,21 @@
   display: flex;
   flex-direction: column-reverse;
   border-radius: 20px;
-  background-color: #00285F;
+  background-color: #00285f;
+  align-items: center;
 }
 
-.entorno-botao{
+.entorno-botao {
+  display: flex;
+  justify-content: center;
   background-color: #ededed;
-  padding: 10px 10px 60px 10px;
+  padding: 42px 240px 60px 10px;
   width: 100%;
-  border-radius: 10px;;
+  border-radius: 10px;
+}
+
+.base-card {
+  align-items: center;
 }
 
 @media (min-width: 576px) {
@@ -64,7 +69,7 @@
     width: 506px;
     margin-bottom: 20px;
   }
-  
+
   .home-image-container svg {
     width: 506px;
   }

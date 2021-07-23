@@ -1,13 +1,10 @@
-.row{
-    background-color: #ffffff;
-    justify-content: space-around;
+.row {
+  background-color: #ffffff;
+  justify-content: space-around;
 }
 
 .cardindividual {
-    background-color: #ededed;
-    margin: 24px;
+  background-color: #ededed;
+  margin: 24px;
+  border-radius: 10px;
 }
-
-
-
-
