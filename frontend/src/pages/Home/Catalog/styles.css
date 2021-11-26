@@ -1,3 +1,36 @@
+.catalog-container {
+  background-color: white;
+  border: 1px solid white;
+}
+
+.catalog-search-container {
+  background: #ededed;
+  border-radius: 10px;
+  margin: 10px 10px 30px 10px;
+}
+
+.catalog-search-container input {
+background-color: aqua;  
+height: 40px;
+  border-radius: 5px 0 0 5px;
+  border-style: none;
+  margin-top: 22px;
+  margin-left: 10px;
+  min-width: 200px;
+  max-width: 584px;
+}
+
+.catalog-search-container button {
+  height: 40px;
+  width: 77px;
+  margin-top: -5px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #00285F;
+}
+
 .row {
   background-color: #ffffff;
   justify-content: space-around;
@@ -8,3 +41,5 @@
   margin: 24px;
   border-radius: 10px;
 }
+
+

@@ -8,12 +8,19 @@
 .nav-logo-text:hover {
   color: #00285f;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .main-menu {
   display: flex;
   font-size: 18px;
   width: 380px;
+  justify-content: space-between;
+}
+
+.main-menu li {
+  margin-bottom: 10px;
 }
 
 .main-menu a {
@@ -30,13 +37,4 @@
   color: #00285f;
   font-weight: 700;
   text-decoration: none;
-}
-
-.alinhar {
-  display: flex;
-}
-
-.active {
-  align-content: flex-end;
-  padding: 48px;
 }
